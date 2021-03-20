@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for="e in errata" :key="e.slug">
-      <nuxt-link :to="'/errata/'+ e.slug">{{e.title}} {{e.date}}</nuxt-link>
+      <nuxt-link :to="'errata/'+ e.slug">{{e.title}}</nuxt-link>
     </div>
   </div>
 </template>
