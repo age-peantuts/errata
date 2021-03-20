@@ -18,8 +18,9 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@master
 
-      - name: Build 🔧
+      - name: Install and Build 🔧
         run: |
+          npm install
           npm run build
           npm run generate
 
