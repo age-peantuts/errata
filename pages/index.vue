@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        errata
+        age-peanuts-hp
       </h1>
       <div class="links">
         <a
